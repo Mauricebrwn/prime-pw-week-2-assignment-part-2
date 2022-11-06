@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and give it the name Dane.
+// We check if the name is Mary
+// if the name is equal to Mary console log will say 'Hi Mary'
+//If the name does not equal Mary console log will say 'How do you do?'
 
 //CODE
 /*
