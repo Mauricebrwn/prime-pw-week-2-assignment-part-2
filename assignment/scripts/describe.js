@@ -28,7 +28,7 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and give it the name Dane.
 // We check if the name is Mary
-// if the name is equal to Mary console log will say 'Hi Mary'
+// if the name is an exact match to Mary console log will say 'Hi Mary'
 //If the name does not equal Mary console log will say 'How do you do?'
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a condtition where if the code entered is an exact match to '123'
+// If the exact code is entered console log would show 'super' 
+// the new code would be 123 * 2 
+// If the code entered is more than 250 the console log would show 'duper'
 
 //CODE
 /*
@@ -59,7 +59,7 @@ let code = 123;
 if(code === 123) {
   secret = 'super';
   code = code * 2;
-}
+
 
 if (code > 250) {
   secret = 'duper'
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a boolean where the isStudent is true, the variable age is set to 34 and the variable zip is 55407.
+// If the isStudent is and exact match and the zip code is more than 80000 the console log will show 'You're a student from the West Coast!'
+// If the age is less than 30 or the isStudent is false the console log would show 'Whatare your hobbies?'
+// Otherwise if the isStudent is true the console log would show 'Welcome to Prime!' If none of the above statments match the console log would show 'How about the weather?'
 
 //CODE
 /*
