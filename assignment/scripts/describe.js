@@ -128,12 +128,12 @@ if (number >= 2) {
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
-
+//FIX- colorOne shoule be 'blue' and colorTwo should be 'red'
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+//FIX- Missing second conditional if mix is true colorOne and colorTwo should be 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +146,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+FIX- Change || to && both sides must be true not just either one. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +159,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+FIX- Should read as (age >= minAge) {
+  console.log('enter')
+}
+else if {
+  console.log('no entry')
+}
 if(minAge <= age) {
   console.log('no entry');
 } else {
